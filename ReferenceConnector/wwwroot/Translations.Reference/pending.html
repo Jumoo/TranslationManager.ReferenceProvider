@@ -1,0 +1,33 @@
+﻿<div ng-controller="referencePendingController as pvm">
+    <umb-box>
+        <umb-box-header title-key="reference_name"></umb-box-header>
+        <umb-box-content>
+            <!-- umbraco datepicker needs to be in a form -->
+            <form class="form-horizontal">
+
+                <!-- pending options -->
+
+                <umb-control-group label="@reference_description"
+                                   description="@reference_descriptionDesc">
+                    <textarea class="umb-property-editor"
+                              name="description"
+                              ng-model="vm.job.providerOptions.description"
+                              rows="4"></textarea>
+                </umb-control-group>
+
+
+                <umb-control-group label="@reference_duedate"
+                                   description="@reference_duedateDesc">
+                    <umb-property-editor model="pvm.dateEditor" />
+                </umb-control-group>
+
+                <!-- debugging -->
+                <pre>{{vm.job.providerOptions | json }}</pre>
+
+            </form>
+
+        </umb-box-content>
+    </umb-box>
+
+    <!-- other settings here... -->
+</div>

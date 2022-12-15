@@ -1,0 +1,17 @@
+﻿<div ng-controller="referenceConfigController as pvm"
+     class="form-horizontal">
+    <umb-box>
+        <umb-box-header title-key="reference_name"></umb-box-header>
+        <umb-box-content>
+
+            <umb-control-group label="@reference_key" 
+                               description="@reference_key-desc">
+                <input type="text" ng-model="vm.settings.key" class="umb-textstring textstring umb-property-editor" />
+            </umb-control-group>
+
+        </umb-box-content>
+    </umb-box>
+
+    <!-- other settings here... -->
+    <pre>{{vm.settings | json}}</pre>
+</div>

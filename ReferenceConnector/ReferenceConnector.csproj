@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+	<PropertyGroup>
+		<TargetFrameworks>net6.0</TargetFrameworks>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+
+		<!-- makes wwwroot in the project map to App_Plugins in an umbraco site. -->
+		<StaticWebAssetBasePath>App_Plugins</StaticWebAssetBasePath>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Jumoo.TranslationManager.Core" Version="10.1.0" />
+		<PackageReference Include="Jumoo.TranslationManager.Serializers" Version="10.1.0" />
+	</ItemGroup>
+
+</Project>

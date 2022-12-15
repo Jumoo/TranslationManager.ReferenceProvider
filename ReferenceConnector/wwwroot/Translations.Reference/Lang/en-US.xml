@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<language alias="en" intName="English (UK)" localName="English (UK)" lcid="" culture="en-GB">
+	<creator>
+		<name>Jumoo</name>
+		<link>http://jumoo.uk</link>
+	</creator>
+	<area alias="reference">
+		<key alias="name">Reference Connector</key>
+
+		<!-- config -->
+		<key alias="key">Api Key</key>
+		<key alias="key-desc">The API Key to connect to the service</key>
+	
+		<!-- pending -->
+		<key alias="description">Description</key>
+		<key alias="descriptionDesc">Note to send along with the job</key>
+
+		<key alias="duedate">Deadline</key>
+		<key alias="duedateDesc">When should the job be completed by</key>
+	</area>
+</language>

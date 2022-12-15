@@ -1,0 +1,21 @@
+﻿<div ng-controller="referenceSubmittedController as pvm"
+     class="form-horizontal">
+    <umb-box>
+        <umb-box-header title-key="reference_name"></umb-box-header>
+        <umb-box-content>
+
+            <div class="provider-setting-item">
+                <strong>Project Id</strong> {{pvm.properties.projectId}}
+            </div>
+
+            <!-- other settings here... -->
+
+        </umb-box-content>
+
+        <!-- debug -->
+        <umb-box-content>
+            <pre>{{pvm.properties | json }}</pre>
+        </umb-box-content>
+    </umb-box>
+
+</div>
