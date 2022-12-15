@@ -12,6 +12,18 @@ You might want to check to see if one exists before you write a custom one.
 *We (Jumoo) are also avalible to write a connector for your system if you require (£ cost involved) - we have written a number of the existing connectors - so can turn them around quite quickly if needed.*
 
 
+## Getting Started
+
+The UmbracoSite in the repo, will need to be setup the first time you check the project out. 
+
+- remove the 'ConnectionStrings' element from the appsettings.json and then run the site. 
+
+- This will prompt you to install a new site, the Umbraco Starter kit will be included. 
+
+- Add additional languages to the site and then copy the home content to a new root, 
+
+- this will then allow you to create a translation set on the site, and you can send content between site.s
+
 ---
 
 The reference connector contains the basic info to get started building a custom connector for Translation Manager 
