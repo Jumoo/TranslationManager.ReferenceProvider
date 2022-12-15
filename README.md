@@ -10,6 +10,8 @@ https://jumoo.co.uk/translate/providers/
 You might want to check to see if one exists before you write a custom one. 
 
 *We (Jumoo) are also avalible to write a connector for your system if you require (£ cost involved) - we have written a number of the existing connectors - so can turn them around quite quickly if needed.*
+
+
 ---
 
 The reference connector contains the basic info to get started building a custom connector for Translation Manager 
