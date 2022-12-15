@@ -3,6 +3,8 @@
 
 This Repository contains a reference connector for Jumoo's Translation Manager tool for Umbraco. 
 
+**The reference provider shows how to manage the submit,check,cancel processes, but it does not fully function as a translating provider, it requires additional code to connect, translate and process content**
+
 Translation Manager's connector interface allows custom code to be placed into the job creations, check and approval process of Translation Manager so translations can be sent and recevied from third party systems. there are a number of existing connectors - 
 
 https://jumoo.co.uk/translate/providers/
